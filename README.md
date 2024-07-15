@@ -15,12 +15,7 @@ To run the services in your GitHub repository using the provided Dockerfiles and
    docker-compose up --build
    ```
 
-4. Start the containers for all services:
-   ```
-   docker-compose up
-   ```
-
-5. Verify that all services are running:
+4. Verify that all services are running:
    ```
    docker ps
    ```
