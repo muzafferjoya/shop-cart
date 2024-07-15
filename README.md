@@ -56,7 +56,7 @@ Get All Orders: GET /
 Update Order Status: PUT /:id/status
 
 
-## How to use This Endpoint
+## How to use these Endpoint
 
 **Creating a user**:
 
