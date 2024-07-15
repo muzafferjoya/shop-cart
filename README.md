@@ -54,3 +54,24 @@ Get Order by ID: GET /:id
 Get All Orders: GET /
 
 Update Order Status: PUT /:id/status
+
+
+## How to use This Endpoint
+
+**Creating a user**:
+
+```
+curl -X POST http://localhost:3001/users/register -H "Content-Type: application/json" -d '{"username": "abc", "password": "abc", "email": "abc@gmail.com"}'
+```
+
+**Creating an Order**:
+
+```
+curl -X POST http://localhost:3002/products -H "Content-Type: application/json" -d '{"name": "Samsung", "description": "A51", "price": 23000, "stock": 10}'
+```
+
+**Place an roduct**:
+
+```
+curl -X POST http://localhost:3003/orders -H "Content-Type: application/json" -d '{"userId": "6694c6cc8ddb2*****", "products": [{"productId": "6694c6e379e******", "quantity": 2}], "totalAmount": 200}'
+```
